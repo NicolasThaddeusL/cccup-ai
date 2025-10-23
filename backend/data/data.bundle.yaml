@@ -1,0 +1,295 @@
+meta:
+  bundle_built: '2025-10-05T14:10:17'
+  schema_version: 1
+  sources:
+  - path: meta.yaml
+    size_bytes: 291
+  - path: faq.yaml
+    size_bytes: 1142
+  - path: lomba.yaml
+    size_bytes: 3378
+  - path: schedule.yaml
+    size_bytes: 494
+  - path: contacts.yaml
+    size_bytes: 368
+  files:
+  - meta.yaml:
+      source: Official CC Cup 2025 Docs
+      last_verified: '2025-10-04'
+  - faq.yaml:
+      source: Official CC Cup 2025 Docs
+      last_verified: '2025-10-04'
+  - lomba.yaml:
+      source: Official CC Cup 2025 Docs
+      last_verified: '2025-10-04'
+  - schedule.yaml:
+      source: Official CC Cup 2025 Docs
+      last_verified: '2025-10-04'
+  - contacts.yaml:
+      source: Official CC Cup 2025 Docs
+      last_verified: '2025-10-04'
+info:
+  creator:
+    name: Nicolas TL
+    id: '2415674'
+    description: Pembuat resmi chatbot CC Cup.
+  arti_xl:
+    meaning: Edisi ke-40 (angka Romawi)
+    note: XL pada CC Cup XL bukan berarti dua puluh.
+faq:
+  overview:
+    title: Tentang CC Cup 2025
+    description: 'Canisius College Cup 2025 (CC Cup XL) adalah ajang perlombaan antar
+      sekolah (200+ sekolah)
+
+      di Kolese Kanisius, berlangsung 20–27 September 2025.
+
+      Info resmi tersedia di cccup.id.
+
+      '
+  pendaftaran:
+    title: Cara Pendaftaran
+    method: Melalui situs resmi cccup.id
+    cost: Gratis
+    deadline: 16 September 2025
+    contacts:
+      smp:
+        name: Carlo
+        phone: +62 821-2378-8279
+      sma:
+        name: Adrian
+        phone: +62 897-1581-717
+  daftar_lomba:
+    title: Cabang Lomba
+    list:
+    - Mini Soccer
+    - Basket
+    - Voli
+    - Bulu Tangkis
+    - Pencak Silat
+    - Tenis Meja
+    - Modern Dance
+    - Band
+    - Catur
+    - Fotografi
+    - English Debate
+    - Debat
+    - Cubing
+    - Taekwondo
+    - Short Movie
+    - Wall Climb
+    - Karate
+    - Digital Painting
+    - Paduan Suara
+    - Cerdas Cermat
+  kebutuhan:
+    title: Persyaratan Pendaftaran
+    description: Informasi sedang disusun (placeholder).
+competitions:
+  mini_soccer:
+    name: Mini Soccer Putra
+    contacts:
+      smp:
+        name: HALLO
+        phone: +00 000-0000-0000
+      sma:
+        name: HELLO
+        phone: +11 111-1111-1111
+  basket:
+    name: Basket Putra & Putri
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  voli:
+    name: Voli Putra & Putri
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  bulu_tangkis:
+    name: Bulu Tangkis
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  pencak_silat:
+    name: Pencak Silat
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  tenis_meja:
+    name: Tenis Meja
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  modern_dance:
+    name: Modern Dance
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  band:
+    name: Band
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  catur:
+    name: Catur
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  fotografi:
+    name: Fotografi
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  english_debate:
+    name: English Debate
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  debat:
+    name: Debat
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  cubing:
+    name: Cubing
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  taekwondo:
+    name: Taekwondo
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  short_movie:
+    name: Short Movie
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  wall_climb:
+    name: Wall Climb
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  karate:
+    name: Karate
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  digital_painting:
+    name: Digital Painting
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  paduan_suara:
+    name: Paduan Suara
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+  cerdas_cermat:
+    name: Cerdas Cermat
+    contacts:
+      smp:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+      sma:
+        name: XXXX
+        phone: +XX XXX-XXXX-XXXX
+schedule:
+  opening:
+    name: Opening Ceremony
+    date: '2025-09-20'
+    time: 08:00 WIB
+    location: Kolese Kanisius
+    note: Informasi resmi tersedia di cccup.id
+  closing:
+    name: Closing Ceremony
+    date: '2025-09-27'
+    time: 18:00 WIB
+    location: Kolese Kanisius
+  registrasi:
+    name: Registrasi Peserta
+    deadline: '2025-09-16'
+    note: Detail teknis dapat dilihat di cccup.id
+contacts:
+  instagram:
+    handle: '@canisiuscollegecup'
+    url: https://instagram.com/canisiuscollegecup
+  email: cccup@kanisius.sch.id
+  website: https://cccup.id
+  phone:
+    number_e164: '+628119628426'
+    display: +62 811-9628-426
+    contact_person: Jonas
+    whatsapp: true

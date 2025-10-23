@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CCCC.AI – CC Cup XL</title>
+
+  <!-- Fonts (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/style.css" />
+</head>
+<body>
+  <!-- Sand/dust particle layer (behind content) -->
+  <canvas id="sand-canvas" aria-hidden="true"></canvas>
+
+  <header>
+    <div class="logo">CCCC.AI</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Peraturan</a>
+      <a href="#">Perlombaan</a>
+      <a href="#">Matches</a>
+    </nav>
+    <div class="actions">
+      <button id="toggle-theme" title="Toggle theme">🌙</button>
+      <button class="signin">Sign In</button>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding:.6rem 1rem; opacity:.75;">
+      CC Cup XL · El-Helw Mā Yekmelsh
+    </div>
+
+    <section id="messages" aria-live="polite" aria-atomic="false"></section>
+
+    <div class="dock-wrap">
+      <div class="dock">
+        <button type="button" class="dock-btn" aria-label="Tambahkan" title="Tambahkan" id="btn-add">＋</button>
+        <textarea id="chat-input" rows="1" maxlength="350" placeholder="Silahkan ketik pertanyaan…"></textarea>
+        <button id="btn-send" aria-label="Kirim" title="Kirim">➤</button>
+      </div>
+      <div id="char-counter">0 / 350 characters</div>
+    </div>
+  </main>
+
+  <!-- Config for static hosting -->
+  <script>
+    // Set this to your backend URL (Deta/Render) or leave "" for same-origin
+    window.API_BASE = ""; // e.g., "https://cccup-ai.deta.app"
+    window.INPUT_LIMIT = 350;
+  </script>
+  <script src="./static/js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# ---- Core Framework ----
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ---- Utilities ----
+python-dotenv==1.0.1
+PyYAML==6.0.2
+requests==2.32.3
+
+# ---- Optional but helpful (used by FastAPI internally) ----
+anyio==4.4.0
+starlette==0.37.2

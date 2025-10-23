@@ -1,0 +1,124 @@
+meta:
+  source: "Official CC Cup 2026 Docs"
+  last_verified: "2025-10-04"
+
+competitions:
+  mini_soccer:
+    name: "Mini Soccer Putra"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXX" }
+
+  basket:
+    name: "Basket Putra & Putri"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  voli:
+    name: "Voli Putra & Putri"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  bulu_tangkis:
+    name: "Bulu Tangkis"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  pencak_silat:
+    name: "Pencak Silat"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  tenis_meja:
+    name: "Tenis Meja"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  modern_dance:
+    name: "Modern Dance"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  band:
+    name: "Band"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  catur:
+    name: "Catur"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  fotografi:
+    name: "Fotografi"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  english_debate:
+    name: "English Debate"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  debat:
+    name: "Debat"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  cubing:
+    name: "Cubing"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  taekwondo:
+    name: "Taekwondo"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  short_movie:
+    name: "Short Movie"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  wall_climb:
+    name: "Wall Climb"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  karate:
+    name: "Karate"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  digital_painting:
+    name: "Digital Painting"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  paduan_suara:
+    name: "Paduan Suara"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+
+  cerdas_cermat:
+    name: "Cerdas Cermat"
+    contacts:
+      smp: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+XX XXX-XXXX-XXXX" }

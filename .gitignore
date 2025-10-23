@@ -1,0 +1,28 @@
+# Python / venv
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+ENV/
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Frontend
+node_modules/
+dist/
+build/
+*.lock
+
+# Logs / cache
+*.log
+.cache/

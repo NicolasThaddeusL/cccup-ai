@@ -1,0 +1,22 @@
+meta:
+  source: "Official CC Cup 2025 Docs"
+  last_verified: "2025-10-04"
+
+schedule:
+  opening:
+    name: "Opening Ceremony"
+    date: "2025-09-20"
+    time: "08:00 WIB"
+    location: "Kolese Kanisius"
+    note: "Informasi resmi tersedia di cccup.id"
+
+  closing:
+    name: "Closing Ceremony"
+    date: "2025-09-27"
+    time: "18:00 WIB"
+    location: "Kolese Kanisius"
+
+  registrasi:
+    name: "Registrasi Peserta"
+    deadline: "2025-09-16"
+    note: "Detail teknis dapat dilihat di cccup.id"

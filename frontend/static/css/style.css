@@ -1,0 +1,243 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  color: #3c2e1e;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  /* gradient background */
+  background:
+    radial-gradient(1200px 800px at 50% -100px,
+      rgba(255,230,200,.55),
+      rgba(255,190,120,.35) 50%,
+      rgba(255,190,120,0) 70%),
+    linear-gradient(180deg, #fff7ea 0%, #ffe3bd 40%, #ffd19a 100%);
+}
+
+/* dark sand mode */
+body.theme-dark {
+  color: #f1e3c3;
+  background:
+    radial-gradient(1200px 800px at 50% -100px,
+      rgba(80,65,40,.5),
+      rgba(50,38,25,.5) 50%,
+      rgba(20,15,10,0) 70%),
+    linear-gradient(180deg, #3a2b18 0%, #2a1f12 40%, #1a1209 100%);
+}
+
+/* ===== Particle Canvas ===== */
+#sand-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0; /* always behind content */
+  pointer-events: none;
+}
+
+/* ===== Navbar ===== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 247, 234, 0.9);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+}
+
+body.theme-dark header {
+  background: rgba(40, 30, 20, 0.9);
+}
+
+header .logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+}
+
+nav a {
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header .actions {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.9rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+button#toggle-theme {
+  background: #fdf2de;
+}
+
+body.theme-dark button#toggle-theme {
+  background: #2e2416;
+  color: #f1e3c3;
+}
+
+button.signin {
+  background: #f5d08d;
+}
+
+body.theme-dark button.signin {
+  background: #5a4326;
+  color: #f1e3c3;
+}
+
+/* ===== Chat Area ===== */
+main {
+  position: relative;
+  z-index: 1; /* above particles */
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+}
+
+#messages {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* tighter stack to remove large vertical gaps */
+.msg {
+  display: flex;
+  margin: 0.8rem 0; /* was 1.2rem */
+}
+
+.msg.right {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 75%;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  word-break: break-word;
+}
+
+/* remove “top gap” caused by default margins on the first/last child */
+.bubble > :first-child { margin-top: 0 !important; }
+.bubble > :last-child  { margin-bottom: 0 !important; }
+
+/* compact headings inside bubbles */
+.bubble h1, .bubble h2, .bubble h3 {
+  margin: 0 0 .45rem 0;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+/* reasonable spacing between paragraphs/lists */
+.bubble p + p,
+.bubble ul, .bubble ol { margin-top: .5rem; }
+
+.bubble .dot { display:inline-block; width:0.9em; text-align:center; }
+
+.bubble-user {
+  background: #fff;
+  color: #333;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.bubble-bot {
+  background: #fbe0b4;
+  color: #2c1e10;
+}
+
+body.theme-dark .bubble-user {
+  background: #2a1f12;
+  color: #f1e3c3;
+}
+
+body.theme-dark .bubble-bot {
+  background: #5a4326;
+  color: #f1e3c3;
+}
+
+/* typing indicator */
+.typing {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* ===== Dock (Input Bar) ===== */
+.dock-wrap {
+  padding: 1rem 2rem;
+  border-top: 1px solid rgba(0,0,0,.05);
+  background: rgba(255,247,234,0.85);
+  backdrop-filter: blur(6px);
+}
+
+body.theme-dark .dock-wrap {
+  background: rgba(40, 30, 20, 0.85);
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.dock {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+  background: #fff;
+}
+
+body.theme-dark .dock {
+  background: #1f160e;
+  border-color: #5a4326;
+}
+
+.dock textarea {
+  flex: 1;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background: transparent;
+  color: inherit;
+}
+
+.dock button {
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 0.4rem;
+  background: #f5d08d;
+}
+
+body.theme-dark .dock button {
+  background: #5a4326;
+  color: #f1e3c3;
+}
+
+#char-counter {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

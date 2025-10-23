@@ -1,0 +1,48 @@
+meta:
+  source: "Official CC Cup 2026 Docs"
+  last_verified: "2025-10-04"
+
+faq:
+  overview:
+    title: "Tentang CC Cup 2026"
+    description: |
+      Canisius College Cup 2026 (CC Cup XLI) adalah ajang perlombaan antar sekolah (200+ sekolah)
+      di Kolese Kanisius, berlangsung XX-XX XXXXXX 2026.
+      Info resmi tersedia di cccup.id.
+
+  pendaftaran:
+    title: "Cara Pendaftaran"
+    method: "Melalui situs resmi cccup.id"
+    cost: "Gratis"
+    deadline: "XX XXXXXX 2026"
+    contacts:
+      smp: { name: "XXXX", phone: "+62 XXX-XXXX-XXXX" }
+      sma: { name: "XXXX", phone: "+62 XXX-XXXX-XXX" }
+
+  daftar_lomba:
+    title: "Cabang Lomba"
+    list:
+      - Mini Soccer
+      - Basket
+      - Voli
+      - Bulu Tangkis
+      - Pencak Silat
+      - Tenis Meja
+      - Modern Dance
+      - Band
+      - Catur
+      - Fotografi
+      - English Debate
+      - Debat
+      - Cubing
+      - Taekwondo
+      - Short Movie
+      - Wall Climb
+      - Karate
+      - Digital Painting
+      - Paduan Suara
+      - Cerdas Cermat
+
+  kebutuhan:
+    title: "Persyaratan Pendaftaran"
+    description: "Informasi sedang disusun (placeholder)."
