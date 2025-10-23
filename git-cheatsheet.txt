@@ -1,0 +1,61 @@
+────────────────────────────
+ GIT CHEAT SHEET – CCCC.AI
+────────────────────────────
+Author: Nicolas TL
+Project: CCCC.AI (CC Cup XL 2025)
+────────────────────────────
+
+🧭 1️⃣ Check Status
+    git status
+Shows which files are new, modified, or deleted.
+
+✏️ 2️⃣ Add Changes
+    git add .
+Stages ALL changes in current folder and subfolders.
+
+💬 3️⃣ Commit Changes
+    git commit -m "Describe your change"
+Examples:
+    git commit -m "Fix API bug in backend"
+    git commit -m "Improve frontend chat style"
+
+☁️ 4️⃣ Push to GitHub
+    git push
+First push (only once per branch):
+    git push -u origin main
+
+🔁 5️⃣ Pull Updates (from GitHub to local)
+    git pull
+
+🧭 6️⃣ View Commit History
+    git log --oneline --graph --decorate --all
+
+────────────────────────────
+🧹 Optional Fixes
+────────────────────────────
+Undo added files (unstage):
+    git restore --staged .
+
+Undo last commit (keep changes):
+    git reset --soft HEAD~1
+
+Discard all local edits (dangerous!):
+    git restore .
+
+────────────────────────────
+📦 Typical Flow
+────────────────────────────
+git status
+git add .
+git commit -m "Update chatbot and YAML index"
+git push
+
+────────────────────────────
+💡 Tips
+────────────────────────────
+• Always check `git status` before pushing.
+• Use small, clear commits — easier to track bugs.
+• Run `git pull` before editing if working on multiple devices.
+• Keep `.env`, `__pycache__`, and virtualenv folders in `.gitignore`.
+
+────────────────────────────
